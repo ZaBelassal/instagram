@@ -1,0 +1,101 @@
+*{
+    font-family: 'Anek Bangla', sans-serif;
+}
+.container{
+    margin:auto;
+    width:600px;
+}
+.flexpoints{
+    display:flex;
+    justify-content: space-between;
+    border :1px solid #000000;
+}
+.contour{
+    border-top:3px solid #831f4f;
+    border-left:3px solid #8d372f;
+    border-bottom: 3px solid #944F24;
+    border-right:3px solid #8e5971;
+    border-radius:50%;
+    height:70px;
+    width:70px;
+    padding:2px;
+}
+.imgngannou{
+    display:flex;
+    /* justify-content: s; */
+    text-align: left;
+    
+}
+.img1 {
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+.ngannouflex2{
+    margin:0px;
+    font-family: 'Anek Bangla', sans-serif;
+}
+.ngannouflex2{
+    margin-left:10px;
+}
+.three-points{
+    display:flex;
+    padding:24px;
+}
+.point{
+    height:7px;
+    width:7px;
+    border-radius:50%;
+    background-color:black;
+    margin:10px 3px;
+}
+
+.imgngannouferguson{
+    position:relative;
+    background-image: url("images/fergusonxngannou.jpg");
+    background-size: cover;
+    height:600px;
+    width:600px;
+}
+/* .like{
+    background-color:gray;
+    width:40px;
+} */
+.likeimage{
+    font-size: 5em;
+    position:absolute;
+    top:200px;
+    left:230px;
+}
+#heart1{
+    color:white;
+    font-size:2em;
+}
+
+.like{
+    margin-right:30px;
+    width:20px;
+}
+
+.dislike{
+    width:20px;
+}
+
+
+#heart{
+    color:red;
+    font-size:2em;
+    
+}
+#thumbs{
+    font-size:2em;
+    color:rgb(70, 191, 247);
+}
+
+.like-dislike{
+    display:flex;
+}
+
+.hidden {
+    display:none;
+}
